@@ -1,4 +1,4 @@
-def get_number(mesg=''):
+def get_number(mesg=''): #Functions to request numbers 
     flag = True
     while flag:
             number = input("{}".format(mesg))
@@ -8,6 +8,7 @@ def get_number(mesg=''):
     return number
     
 print("Калькулятор")
+#If you want to increase the number of operators add key:value
 opt_type = {'+':['сложение','add','+'], '-':['вычитание','sub','-'], '*':['умножение','mul', '*'], '/':['деление','div','/']}
 while True:
     
