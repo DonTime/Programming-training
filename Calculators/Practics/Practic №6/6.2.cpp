@@ -11,7 +11,7 @@ int main()
     int min = diaposon[0];
     for (int i = 0; i < 10; ++i)
     {
-        if (diaposon[i] < min and diaposon[i] >= 0)//определяем меньшее позитивное число
+        if (diaposon[i] < min and diaposon[i] >= 0)//РѕРїСЂРµРґРµР»СЏРµРј РјРµРЅСЊС€РµРµ РїРѕР·РёС‚РёРІРЅРѕРµ С‡РёСЃР»Рѕ
         {
             min = diaposon[i];
         }
