@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-#include <cmath>
 
 
 int main()
@@ -11,13 +10,10 @@ int main()
     double a[n];
     double max = 0;
     int indx = 0;
-    for (int i = 0; i < n; i++)//цикл для ввода чисел в массив
+    for (int i = 0; i < n; i++)
     {
         cout << "Введите элемент массива № " << i + 1 << "= ";
         cin >> a[i];
-    }
-    for (int i = 0; i < n; i++)
-    {
         if (a[i] > max)//определяем максимум в массиве
         {
             max = a[i];
